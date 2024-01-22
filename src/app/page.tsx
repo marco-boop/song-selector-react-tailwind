@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Table from "./components/Table";
 
 export default function Home() {
   return (
@@ -7,8 +8,12 @@ export default function Home() {
       <h1 className="text-6xl font-bold">
       SOTM
     </h1>
-    <p className="p-10 font-serif overflow-auto" >This is a pragraph welcome to song of the month archive</p>
+    <p className="p-10 font-serif overflow-auto" >welcome to the song of the month archive</p>
       </div>
+
+    <Table />
+    
     </main>
+
   );
 }
